@@ -1,0 +1,60 @@
+.topbar{
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+.topbar .wrapper{
+    height:64px;
+    display: flex;
+    vertical-align: middle;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button{
+    width: 72px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    background: #ddd;
+    color: #222;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.button:hover {
+     box-shadow: 1px 1px 1px hsla(0, 0, 0, 0.5);
+ }
+.button.primary {
+     background: #02af5f;
+     color: white
+ }
+.dialogWrapper{
+    position: fixed;
+    background: hsla(0,0%,0%,0.25);
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.dialog{
+    background: #fff;
+    min-height: 4em;
+    min-width: 10em;
+}
+header{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    padding: 16px;
+}

@@ -1,0 +1,3 @@
+export const SHOW_SIGNUP='SIGNUP/SHOW'
+export const SHOW_SIGNIN='SIGNIN/SHOW'
+export const CLOSE_DIALOG='DIALOG/CLOSE'
